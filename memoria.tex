@@ -364,65 +364,18 @@
 
 \maketitle
 
-
-\newpage\null\thispagestyle{empty}\newpage
-
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\thispagestyle{empty}
-
-
-\noindent\includegraphics[width=\textwidth]{cabecera}\vspace{1cm}
-
-\noindent D. nombre tutor, profesor del departamento de nombre departamento, área de nombre área.
-
-\noindent Expone:
-
-\noindent Que el alumno D. \nombre, con DNI dni, ha realizado el Trabajo final de Grado en Ingeniería Informática titulado título de TFG. 
-
-\noindent Y que dicho trabajo ha sido realizado por el alumno bajo la dirección del que suscribe, en virtud de lo cual se autoriza su presentación y defensa.
-
-\begin{center} %\large
-En Burgos, {\large \today}
-\end{center}
-
-\vfill\vfill\vfill
-
-% Author and supervisor
-\begin{minipage}{0.45\textwidth}
-\begin{flushleft} %\large
-Vº. Bº. del Tutor:\\[2cm]
-D. nombre tutor
-\end{flushleft}
-\end{minipage}
-\hfill
-\begin{minipage}{0.45\textwidth}
-\begin{flushleft} %\large
-Vº. Bº. del co-tutor:\\[2cm]
-D. nombre co-tutor
-\end{flushleft}
-\end{minipage}
-\hfill
-
-\vfill
-
-% para casos con solo un tutor comentar lo anterior
-% y descomentar lo siguiente
-%Vº. Bº. del Tutor:\\[2cm]
-%D. nombre tutor
-
-
-\newpage\null\thispagestyle{empty}\newpage
-
-
-
-
 \frontmatter
 
 % Abstract en castellano
 \renewcommand*\abstractname{Resumen}
 \begin{abstract}
 En este primer apartado se hace una \textbf{breve} presentación del tema que se aborda en el proyecto.
+
+Importante, en \LaTeX{} las comillas no se codifican como en otros editores:
+\begin{itemize}
+  \item Comillas latinas: <<entre símbolos menores y mayores que>>
+  \item Comillas anglosajonas: inicio con dos acentos graves `` y final con dos apóstrofos ''.
+\end{itemize}
 \end{abstract}
 
 \renewcommand*\abstractname{Descriptores}
